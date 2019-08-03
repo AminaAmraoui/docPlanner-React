@@ -1,0 +1,27 @@
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 250px;
+  }
+  .menu-container a {
+    text-decoration: none;
+    color:#ababab;
+  }
+  .drop-list {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    width: 200px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    padding: 10px 20px 10px;
+  }
+  .drop-list li {
+    margin-bottom: 1em;
+  }
+  .menu-container li:hover > a {
+    color: #00b39b;
+}
+  .nested:hover > .drop-list{
+    display: block
+  }

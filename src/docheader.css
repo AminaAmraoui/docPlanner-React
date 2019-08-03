@@ -1,0 +1,17 @@
+/*   Header   */
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: #FFFFFFF8;
+    padding: 20px 10px 10px;
+  }
+  .logo-docplanner {
+    width: 268px;
+    height: 33px;
+  }

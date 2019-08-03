@@ -1,0 +1,57 @@
+.stat {
+    background-color: #e5faf8;
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-position:10% 150%;
+    background-size: 30%;
+}
+.stat-div {
+    display: flex;
+    padding: 50px 0px 0px
+}
+.offices-div{
+    width: 35vw;
+    padding: 20px 150px 20px
+}
+.offices-div h1 {
+    color: #00b39b;
+    font-size: 30px;
+    margin-bottom: 20px
+}
+.offices-div > p {
+    line-height: 1.75;
+    font-weight: 400;
+    text-align: justify
+}
+.numbers-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+.stat-class{
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+    padding: 20px 20px 20px;
+    margin: 10px
+}
+.stat-class h3,p{
+    text-align: center
+}
+.stat-class h3 {
+    color: #00b39b
+}
+.stat-class p {
+    font-size: 15px
+}
+.up{
+    margin-top: -10px
+}

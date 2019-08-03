@@ -1,0 +1,50 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    width:400px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px 30px 20px;
+    opacity: 1; /*FadIn animation*/
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+    overflow: hidden; /*to hide part of image out of div*/
+}
+@keyframes fadeInOpacity { /*FadeIn animation*/
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.service > h2{
+    color: #FFFFFFB3;
+    margin-bottom: 5px
+}
+.service-container {
+    display:flex;
+    padding: 20px 20px 20px
+}
+.img-service {
+    max-width: 100%;
+    height: auto;
+    border:0;
+    margin-left: 40%;
+}
+.services {
+    display:flex;
+    justify-content: space-around;
+    margin: 3.75rem auto 2.5rem;
+    width:70vw;
+}
+.select-countries{
+    height: 40px;
+    width: auto;
+    margin-right: -150px;
+    border-radius:4px;
+}

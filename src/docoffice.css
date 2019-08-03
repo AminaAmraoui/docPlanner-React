@@ -1,0 +1,56 @@
+.offices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 70px
+}
+.offices h1 {
+    color: #00b39b;
+    font-size: 30px;
+    margin-bottom: 20px
+}
+.offices  p {
+    line-height: 1.75;
+    font-weight: 400;
+    text-align: center;
+    width: 500px
+}
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.city {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    justify-content: space-between;
+    padding: 20px 20px 20px
+}
+.city:hover{
+    box-shadow: 0 2px 10px #888888;
+}
+.city img {
+    border-radius: 5%
+}
+.btn-city {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-city button {
+    border-radius: 4px;
+    background-color: #3d83df;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 7px 15px 7px;
+    font-weight: 700;
+    font-size: 11px;
+    border:0
+}
+.btn-city button:hover {
+    background-color: #1662c6
+}
